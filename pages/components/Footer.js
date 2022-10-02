@@ -11,7 +11,9 @@ export default function Footer() {
             <a href="#">Github</a>
             <a href="#">Docs</a>
             <a href="#">Team</a>
+            <a href="#">Download</a>
             <a href="#">Contact</a>
+
           </div>
         </div>
       </>
