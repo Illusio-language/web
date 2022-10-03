@@ -1,3 +1,5 @@
+import Link from 'next/link';
+import Download from './download';
 export default function Footer() {
     return (
       <>
@@ -10,8 +12,10 @@ export default function Footer() {
           <div className="roboto-light lg:text-md my-6 space-x-6 text-sm lg:my-0 lg:space-x-12">
             <a href="#">Github</a>
             <a href="#">Docs</a>
-            <a href="#">Team</a>
-            <a href="#">Download</a>
+            <a href="#">Team</a> 
+            <Link href={Download}>
+            <a>Download</a>
+            </Link>
             <a href="#">Contact</a>
 
           </div>
