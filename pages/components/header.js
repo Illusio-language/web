@@ -79,7 +79,6 @@ export default function Header() {
                 scaleY: scrollYProgress,
               }}
             >
-              <img src="/images/placeholder.png" alt="placeholder" />
             </motion.div>
           </motion.div>
         </div>
