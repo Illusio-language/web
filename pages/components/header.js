@@ -88,7 +88,7 @@ export default function Header() {
               Fast Builds
             </h3>
             <p className="text-md pb-12 text-[#757575] lg:pb-0 lg:text-xl">
-              Illusio builds tend to be fast.
+              Illusio builds tend to be faster.
             </p>
           </div>
           <div>
