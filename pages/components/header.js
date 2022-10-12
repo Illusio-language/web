@@ -38,9 +38,7 @@ export default function Header() {
             variants={fadeInUp}
             className="text-4xl font-semibold text-white lg:text-7xl"
           >
-            Lorem impsum  
-            <br />
-            <p>Lorem impusm gen</p>
+            <p>Fast | Statically Typed | Begginer Friendly</p><br/>
           </motion.h2>
           <div className="mt-3 mb-4 lg:mt-6 lg:mb-0">
             <motion.p
@@ -50,7 +48,7 @@ export default function Header() {
               variants={fadeInUp}
               className="text-xl text-[#868686] lg:text-2xl"
             >
-              Sit Amet Facilisis Varius Sapien
+              Under Development
             </motion.p>
           </div>
           <motion.div
@@ -87,12 +85,10 @@ export default function Header() {
         <div className="flex flex-col lg:flex-row lg:items-center">
           <div className="pr-[3rem] md:max-w-xl md:pr-[3rem] lg:max-w-3xl lg:pr-[7rem] xl:pr-[17rem]">
             <h3 className="pb-3 text-2xl lg:pb-6 lg:text-4xl">
-              Lorem ipsum dolor sit amet venenatis non quis fringilla est
+              Fast Builds
             </h3>
             <p className="text-md pb-12 text-[#757575] lg:pb-0 lg:text-xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              hendrerit vulputate odio, quis fringilla est venenatis non. Nunc
-              felis libero, auctor vel tellus at, suscipit finibus tortor.
+              Illusio builds tend to be fast.
             </p>
           </div>
           <div>
@@ -110,12 +106,10 @@ export default function Header() {
         <div className="flex flex-col lg:flex-row lg:items-center">
           <div className="block pr-[3rem] md:max-w-xl md:pr-[3rem] lg:hidden lg:max-w-3xl lg:pr-[7rem] xl:pr-[17rem]">
             <h3 className="pb-3 text-2xl lg:pb-6 lg:text-4xl">
-              Lorem ipsum dolor sit amet venenatis non quis fringilla est
+              Tutorials
             </h3>
             <p className="text-md pb-12 text-[#757575] lg:pb-0 lg:text-xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              hendrerit vulputate odio, quis fringilla est venenatis non. Nunc
-              felis libero, auctor vel tellus at, suscipit finibus tortor.
+              Our Tutorials Section has a vast collection of <a href="">000 posts.</a>
             </p>
           </div>
           <div>
@@ -129,12 +123,10 @@ export default function Header() {
           </div>
           <div className="hidden pl-[3rem] md:max-w-xl md:pl-[3rem] lg:block lg:max-w-3xl lg:pl-[7rem] xl:pl-[17rem]">
             <h3 className="pb-3 text-2xl lg:pb-6 lg:text-4xl">
-              Lorem ipsum dolor sit amet venenatis non quis fringilla est
+              Vast Collection of Tutorials to Get Started
             </h3>
             <p className="text-md pb-12 text-[#757575] lg:pb-0 lg:text-xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              hendrerit vulputate odio, quis fringilla est venenatis non. Nunc
-              felis libero, auctor vel tellus at, suscipit finibus tortor.
+            Our Tutorials Section has a vast collection of <a href="">000 posts.</a>
             </p>
           </div>
         </div>
