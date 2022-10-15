@@ -1,3 +1,4 @@
+import Link from 'next/link';
 export default function Footer() {
     return (
       <>
@@ -11,7 +12,7 @@ export default function Footer() {
             <a href="https://github.com/Illusio-language">Github</a>
             <a href="#">Docs</a>
             <a href="#">Team</a> 
-            <a href="#">Download</a>
+            <Link href="/download"><a>download</a></Link>
             <a href="#">Contact</a>
 
           </div>
