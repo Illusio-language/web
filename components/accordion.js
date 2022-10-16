@@ -1,10 +1,11 @@
 import ScriptTag from 'react-script-tag';
 import Image from 'next/image';;
 import Link from 'next/link';
+import '../styles/accordion.css'
 const Download = () => {
   return (
     <div>
-        <ScriptTag isHydrating={true} type="text/javascript" src="../../scripts/accordion.js" />
+        <ScriptTag isHydrating={true} type="text/javascript" src="../scripts/accordion.js" />
         <button class="accordion">Section 1</button>
         <div class="panel">
         <p>
