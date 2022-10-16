@@ -10,8 +10,8 @@ export default function Footer() {
           </div>
           <div className="roboto-light lg:text-md my-6 space-x-6 text-sm lg:my-0 lg:space-x-12">
             <a href="https://github.com/Illusio-language">Github</a>
-            <a href="#">Docs</a>
-            <a href="#">Team</a> 
+            <Link href="/documentation"><a>Docs</a></Link>
+            <Link href="/team"><a>Team</a></Link> 
             <Link href="/download"><a>download</a></Link>
             <a href="#">Contact</a>
 

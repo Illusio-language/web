@@ -1,9 +1,9 @@
 import Image from 'next/image';;
 import Link from 'next/link';
-const Download = () => {
+const Documentation = () => {
   return (
-  <p>Download</p>
+  <p>Documentation</p>
   );
 };
 
-export default Download;
+export default Documentation;
