@@ -1,6 +1,7 @@
 
 import Image from "next/image";
-
+import Typed from 'typed.js';
+import { useEffect, useRef } from 'react';
 import { motion, useViewportScroll, useTransform } from "framer-motion";
 import { useState } from "react";
 
@@ -26,7 +27,28 @@ export default function Header() {
       },
     },
   };
+  // Create Ref element.
+  const el = useRef(null);
 
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["Hi", "bye"], // Strings to display
+      // Speed settings, try diffrent values untill you get good results
+      startDelay: 300,
+      typeSpeed: 200,
+      backSpeed: 50,
+      backDelay: 100,
+      smartBackspace: true,
+      loop: true,
+      showCursor: true,
+      cursorChar: "|"
+    });
+
+    // Destropying
+    return () => {
+      typed.destroy();
+    };
+  }, []);
   return (
     <>
       <div className="mx-auto mt-12 justify-center px-5 pt-4 text-center text-[#ffffff] md:px-6 lg:mt-36 lg:px-8">
@@ -34,11 +56,11 @@ export default function Header() {
           <motion.h2
             initial="hidden"
             animate="animate"
-            exit={{ opacity: 0 }}
+            exit={{ opacity: 2 }}
             variants={fadeInUp}
-            className="text-4xl font-semibold text-white lg:text-7xl"
+            className="text-4xl font-semibold text-white lg:text-6xl"
           >
-            <p>Fast | Statically Typed | Begginer Friendly</p><br/>
+            <p>Fast | Statically Typed | Beginner Friendly</p><br/>
           </motion.h2>
           <div className="mt-3 mb-4 lg:mt-6 lg:mb-0">
             <motion.p
@@ -48,7 +70,7 @@ export default function Header() {
               variants={fadeInUp}
               className="text-xl text-[#868686] lg:text-2xl"
             >
-              Under Development
+              <p>We are <span ref={el}></span></p>
             </motion.p>
           </div>
           <motion.div
@@ -93,7 +115,7 @@ export default function Header() {
           </div>
           <div>
             <Image
-              src="/images/placeholder.png"
+              src="/images/1.jpeg"
               alt="placeholder"
               width={1100}
               height={600}
@@ -114,7 +136,7 @@ export default function Header() {
           </div>
           <div>
             <Image
-              src="/images/placeholder.png"
+              src="/images/2.png"
               alt="placeholder"
               width={1100}
               height={600}
