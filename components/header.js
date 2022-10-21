@@ -35,8 +35,8 @@ export default function Header() {
       strings: ["Illusio a statically and high performance based Language for Typescript lovers"], // Strings to display
       // Speed settings, try diffrent values untill you get good results
       startDelay: 300,
-      typeSpeed: 2000000000000000000000000000000000,
-      backSpeed: 5000000000000000000000000000000000,
+      typeSpeed: 100,
+      backSpeed: 50,
       backDelay: 0,
       smartBackspace: true,
       loop: true,
