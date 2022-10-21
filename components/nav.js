@@ -30,7 +30,7 @@ export default function Nav() {
         animate="animate"
         exit={{ opacity: 0 }}
         variants={fadeInUp}
-        className="roboto-regular mx-auto flex max-w-[100rem] flex-col px-4 pt-4 text-[#ffffff] md:flex-row md:items-center md:justify-between md:px-6 lg:px-8"
+        className="JetBrains-regular mx-auto flex max-w-[100rem] flex-col px-4 pt-4 text-[#ffffff] md:flex-row md:items-center md:justify-between md:px-6 lg:px-8"
       >
         <div className="flex flex-row items-center justify-between p-4">
           <a

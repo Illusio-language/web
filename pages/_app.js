@@ -1,5 +1,4 @@
 import '../styles/globals.css'
-import '../styles/accordion.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

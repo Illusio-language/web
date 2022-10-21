@@ -3,24 +3,28 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: Roboto-Light;
-  src: url(../public/fonts/Roboto-Light.ttf);
+  font-family: JetBrains-Light;
+  src: url(../public/fonts/JetBrainsMono-Light.ttf);
 }
 
 
 @font-face {
-  font-family: Roboto-Thin;
-  src: url(../public/fonts/Roboto-Thin.ttf);
+  font-family: JetBrains-Thin;
+  src: url(../public/fonts/JetBrainsMono-Thin.ttf);
 }
 
 @font-face {
-  font-family: Roboto-Medium;
-  src: url(../public/fonts/Roboto-Medium.ttf);
+  font-family: JetBrains-Medium;
+  src: url(../public/fonts/JetBrainsMono-Medium.ttf);
 }
 
 @font-face {
-  font-family: Roboto-Regular;
-  src: url(../public/fonts/Roboto-Regular.ttf);
+  font-family: JetBrains-Regular;
+  src: url(../public/fonts/JetBrainsMono-Regular.ttf); 
+}
+@font-face {
+  font-family: JetBrains-Bold;
+  src: url(../public/fonts/JetBrainsMono-Bold.ttf); 
 }
 
 html,
@@ -43,18 +47,18 @@ a {
   box-sizing: border-box;
 }
 
-.roboto-light {
-  font-family: Roboto-light;
+.JetBrains-light {
+  font-family: JetBrains-light;
 }
 
-.roboto-medium {
-  font-family: Roboto-Medium;
+.JetBrains-medium {
+  font-family: JetBrains-Medium;
 }
 
-.roboto-thin {
-  font-family: Roboto-Thin;
+.JetBrains-thin {
+  font-family: JetBrains-Thin;
 }
 
-.roboto-regular {
-  font-family: Roboto-regular;
+.JetBrains-regular {
+  font-family: JetBrains-regular;
 }

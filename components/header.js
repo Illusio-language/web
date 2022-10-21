@@ -52,7 +52,7 @@ export default function Header() {
   return (
     <>
       <div className="mx-auto mt-12 justify-center px-5 pt-4 text-center text-[#ffffff] md:px-6 lg:mt-36 lg:px-8">
-        <div className="roboto-regular mb-4 lg:mb-12">
+        <div className="JetBrains-regular mb-4 lg:mb-12">
           <motion.h2
             initial="hidden"
             animate="animate"
@@ -78,7 +78,7 @@ export default function Header() {
             animate="animate"
             exit={{ opacity: 0 }}
             variants={fadeInUp}
-            className="roboto-medium mx-auto mt-3 flex max-w-xs flex-col space-y-1 lg:mt-9 lg:flex-row lg:space-y-0"
+            className="JetBrains-medium mx-auto mt-3 flex max-w-xs flex-col space-y-1 lg:mt-9 lg:flex-row lg:space-y-0"
           >
 
           </motion.div>
@@ -103,7 +103,7 @@ export default function Header() {
           </motion.div>
         </div>
       </div>
-      <div className="roboto-medium mx-auto mb-24 flex max-w-[100rem] px-8 pt-4 text-[#eeeeee] md:items-center md:justify-between md:px-6 lg:px-8">
+      <div className="JetBrains-medium mx-auto mb-24 flex max-w-[100rem] px-8 pt-4 text-[#eeeeee] md:items-center md:justify-between md:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row lg:items-center">
           <div className="pr-[3rem] md:max-w-xl md:pr-[3rem] lg:max-w-3xl lg:pr-[7rem] xl:pr-[17rem]">
             <h3 className="pb-3 text-2xl lg:pb-6 lg:text-4xl">
@@ -124,7 +124,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className="roboto-medium mx-auto mb-24 mt-12 flex max-w-[100rem] px-8 pt-4 text-[#eeeeee] md:items-center md:justify-between md:px-6 lg:mt-[16rem] lg:px-8">
+      <div className="JetBrains-medium mx-auto mb-24 mt-12 flex max-w-[100rem] px-8 pt-4 text-[#eeeeee] md:items-center md:justify-between md:px-6 lg:mt-[16rem] lg:px-8">
         <div className="flex flex-col lg:flex-row lg:items-center">
           <div className="block pr-[3rem] md:max-w-xl md:pr-[3rem] lg:hidden lg:max-w-3xl lg:pr-[7rem] xl:pr-[17rem]">
             <h3 className="pb-3 text-2xl lg:pb-6 lg:text-4xl">
