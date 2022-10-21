@@ -32,12 +32,12 @@ export default function Header() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Hi", "bye"], // Strings to display
+      strings: ["Illusio a statically and high performance based Language for Typescript lovers"], // Strings to display
       // Speed settings, try diffrent values untill you get good results
       startDelay: 300,
-      typeSpeed: 200,
-      backSpeed: 50,
-      backDelay: 100,
+      typeSpeed: 2000000000000000000000000000000000,
+      backSpeed: 5000000000000000000000000000000000,
+      backDelay: 0,
       smartBackspace: true,
       loop: true,
       showCursor: true,
