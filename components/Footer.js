@@ -13,6 +13,7 @@ export default function Footer() {
             <Link href="/documentation"><a>Docs</a></Link>
             <Link href="/team"><a>Team</a></Link> 
             <Link href="/download"><a>download</a></Link>
+            <Link href="/change"><a>Change Logs</a></Link>
             <a href="#">Contact</a>
 
           </div>

@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 import React from "react";
 import { motion } from "framer-motion";
-
+import Link from 'next/link';
 export default function Nav() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   let easing = [0.6, 0.05, 0.01, 0.99];
@@ -71,12 +71,13 @@ export default function Nav() {
           <div className="flex-col pl-4 text-xl md:flex-grow md:pl-0">
             <ul className="flex flex-grow flex-wrap items-center justify-end gap-6 space-x-6 pr-4">
               <li>
+              <Link href="/documentation">
                 <a
-                  href="/"
                   className="rounded-md border-2 bg-white px-4 py-3 text-lg text-black"
                 >
                   Get started 
                 </a>
+              </Link>
               </li>
             </ul>
           </div>

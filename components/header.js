@@ -32,7 +32,7 @@ export default function Header() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Illusio a statically and high performance based Language for Typescript lovers"], // Strings to display
+      strings: ["Illusio a statically and high performance based Language for Typescript lovers" , "Still under dev"], // Strings to display
       // Speed settings, try diffrent values untill you get good results
       startDelay: 300,
       typeSpeed: 100,
@@ -70,7 +70,7 @@ export default function Header() {
               variants={fadeInUp}
               className="text-xl text-[#868686] lg:text-2xl"
             >
-              <p>We are <span ref={el}></span></p>
+              <p><span ref={el}></span></p>
             </motion.p>
           </div>
           <motion.div
@@ -83,26 +83,9 @@ export default function Header() {
 
           </motion.div>
         </div>
-        <div className="container relative top-1/2 left-1/2 mb-[10rem] h-[70%] w-[95%] translate-y-[30%] translate-x-[-50%] md:mb-[15rem] lg:mb-[37rem] lg:h-1/2 lg:w-2/3">
-          <motion.div
-            initial="hidden"
-            animate="animate"
-            exit={{ opacity: 0 }}
-            variants={fadeInUp}
-            className="overflow-hidden rounded-lg bg-[#111111]"
-            style={{
-              scale,
-            }}
-          >
-            <motion.div
-              style={{
-                scaleY: scrollYProgress,
-              }}
-            >
-            </motion.div>
-          </motion.div>
+        
         </div>
-      </div>
+        <br></br>
       <div className="JetBrains-medium mx-auto mb-24 flex max-w-[100rem] px-8 pt-4 text-[#eeeeee] md:items-center md:justify-between md:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row lg:items-center">
           <div className="pr-[3rem] md:max-w-xl md:pr-[3rem] lg:max-w-3xl lg:pr-[7rem] xl:pr-[17rem]">
@@ -136,7 +119,7 @@ export default function Header() {
           </div>
           <div>
             <Image
-              src="/images/2.png"
+              src="/images/code.png"
               alt="placeholder"
               width={1100}
               height={600}
