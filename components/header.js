@@ -90,7 +90,7 @@ export default function Header() {
         <div className="flex flex-col lg:flex-row lg:items-center">
           <div className="pr-[3rem] md:max-w-xl md:pr-[3rem] lg:max-w-3xl lg:pr-[7rem] xl:pr-[17rem]">
             <h3 className="pb-3 text-2xl lg:pb-6 lg:text-4xl">
-              Fast Builds
+              Fast Builds lorem ipsm make blah blah
             </h3>
             <p className="text-md pb-12 text-[#757575] lg:pb-0 lg:text-xl">
               Illusio builds tend to be faster.
@@ -98,9 +98,9 @@ export default function Header() {
           </div>
           <div>
             <Image
-              src="/images/1.jpeg"
+              src="/images/1.png"
               alt="placeholder"
-              width={1100}
+              width={1000}
               height={600}
               className="rounded-lg"
             />
