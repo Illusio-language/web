@@ -1,4 +1,16 @@
 import Link from 'next/link';
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  PinterestShareButton,
+  PinterestIcon,
+  RedditShareButton,
+  RedditIcon,
+  WhatsappShareButton,
+  WhatsappIcon,
+  LinkedinShareButton,
+  LinkedinIcon,
+} from 'next-share';
 export default function Footer() {
     return (
       <>
@@ -14,7 +26,7 @@ export default function Footer() {
             <Link href="/team"><a>Team</a></Link> 
             <Link href="/download"><a>download</a></Link>
             <Link href="/change"><a>Change Logs</a></Link>
-            <a href="#">Contact</a>
+            <a href="mailto: illusiolang@outlook.com">Contact</a>
 
           </div>
         </div>
